@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--Main menu-->
+    <system:String x:Key="MenuItem_Header_File">Файл</system:String>
+    <system:String x:Key="MenuItem_Open">Открыть...</system:String>
+    <system:String x:Key="MenuItem_Exit">Выход</system:String>
+    <!--Main menu-->
+    
+    <!--Label-->
+    <system:String x:Key="Label_CmmType">Тип СММ</system:String>
+    <system:String x:Key="Label_ProfileVersion">Версия профиля</system:String>
+    <system:String x:Key="Label_ProfileClass">Класс профиля</system:String>
+    <system:String x:Key="Label_ColorSpaceOfData">Цветовое пространство</system:String>
+    <system:String x:Key="Label_ProfileConnectionSpace">Пространства привязки (PCS)</system:String>
+    <system:String x:Key="Label_DateAndTimeCreated">Дата создания</system:String>
+    <system:String x:Key="Label_PrimaryPlatform">Основной платформа</system:String>
+    <system:String x:Key="Label_RenderIntent">Цель цветопередачи</system:String>
+    <system:String x:Key="Label_XYZValues">XYZ</system:String>
+    <system:String x:Key="Label_TagCount">Количество дескрипторов</system:String>
+    <!--Label-->
+
+    <!--GroupBox -->
+    <system:String x:Key="GroupBoxHeader_TagStructures">Таблица дескрипторов</system:String>
+    <!--GroupBox -->
+    
+    <!-- DataGrid -->
+    <system:String x:Key="DataGridColumneHeader_Signature">Сигнатура</system:String>
+    <system:String x:Key="DataGridColumneHeader_Offset">Смещение</system:String>
+    <system:String x:Key="DataGridColumneHeader_ElementSize">Размер дескриптора</system:String>
+    <!-- DataGrid -->
+
+    <!--ToolTip for Label-->
+    <system:String x:Key="Tooltip_CmmType">Обозначает наиболее предпочтительный модуль СММ (по существу, стандартный модуль СММ)</system:String>
+    <system:String x:Key="Tooltip_ProfileVersion">это версия описания ICC, которому соответствует данный профиль</system:String>
+    <system:String x:Key="Tooltip_ProfileClass">Определяет класс профиля (MNTR - отображение, SCNR - ввод, PRTR - вывод)</system:String>
+    <system:String x:Key="Tooltip_ColorSpaceOfData">Сигнатура для пространств устройств и аппаратно-независимых цветовых пространств</system:String>
+    <system:String x:Key="Tooltip_ProfileConnectionSpace">Для обозначения пространства PCS есть только два варианта: CIEXYZ или CIELAB</system:String>
+    <system:String x:Key="Tooltip_DateAndTimeCreated">Дата создания</system:String>
+    <system:String x:Key="Tooltip_PrimaryPlatform">Обозначает платформу, на которой был создан профиль (MSFT - Microsoft, APPL - Apple Computer, ...)</system:String>
+    <system:String x:Key="Tooltip_RenderIntent">Обозначаетобозначает целей цветопередачи. К возможным вариантам относятся: воспринимаемая, определяемая носителем колориметрическая, насыщенная и абсолютная колориметрическая</system:String>
+    <system:String x:Key="Tooltip_XYZValues">The XYZ values of the illuminant of the profile connection space. This must correspond to D50</system:String>
+    <system:String x:Key="Tooltip_TagCount">Общее количество дескрипторов в профиле</system:String>
+    <!--ToolTip for Label-->
+
+
+    <system:String x:Key="Window_Title">Просмотр icc профайла</system:String>
+    
+</ResourceDictionary>
